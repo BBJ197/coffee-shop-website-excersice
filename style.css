@@ -345,7 +345,7 @@ background-color: var(--light-pink-color);
 
     .about-section .section-content{
         gap: 70px;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .about-section .about-image-wrapper .about-image{
