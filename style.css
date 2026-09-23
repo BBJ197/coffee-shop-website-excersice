@@ -119,6 +119,13 @@ header .nav-bar {
     font-size: 25px;
 }
 
+.nav-bar #menu-close-button, .nav-bar #menu-open-button {
+    display: none;
+}
+
+
+/* hero section */
+
 .hero-section{
     min-height: 100vh;
     background-color: var(--primary-color);
@@ -185,3 +192,51 @@ header .nav-bar {
     max-width: 600px;
     margin-right: 30px;
 }
+
+@media screen and (max-width: 900px) {
+
+    :root{
+    --font-size-m: 1rem;
+    --font-size-1: 1.3rem;
+    --font-size-x1: 1.5rem;
+    --font-size-xxl: 1.8rem;
+    }
+
+    .nav-bar #menu-close-button, .nav-bar #menu-open-button  {
+        display: block;
+        font-size: var(--font-size-1);
+        background: transparent;
+    }
+
+    .nav-bar #menu-close-button{
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+
+    .nav-bar #menu-open-button{
+        color: var(--white-color);
+    }
+
+    .nav-bar .nav-menu {
+        display: block;
+        position: fixed;
+        left: -300px;
+        top: 0;
+        height: 100%;
+        width: 300px;
+        background-color: var(--white-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+    }
+
+    .nav-bar .nav-menu .nav-link {
+        color: var(--dark-color);
+        display: block;
+        margin-top: 17px;
+        font-size: var(--font-size-1);
+    }
+    
+} 
