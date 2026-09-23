@@ -309,6 +309,11 @@ background-color: var(--light-pink-color);
     background-color: var(--light-pink-color); 
 }
 
+.testimonials-section .slider-container{
+    overflow: hidden;
+    margin: 0 60px 50px;
+} 
+
 .testimonials-section .testimonial {
     display: flex;
     padding: 35px;
@@ -342,6 +347,7 @@ background-color: var(--light-pink-color);
 }
 
 .testimonials-section .swiper-slide-button{
+    margin-top: -50px;
     color: var(--secondary-color);
     transition: 0.3s ease;
 }

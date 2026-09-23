@@ -18,6 +18,7 @@ document.addEventListener("click", (event) => {
 
 const swiper = new Swiper(".slider-container", {
   loop: true,
+  grabCursor: true,
   spaceBetween: 25,
 
   pagination: {
