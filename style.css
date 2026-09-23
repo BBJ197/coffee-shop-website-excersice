@@ -334,6 +334,22 @@ background-color: var(--light-pink-color);
     line-height: 25px;
 }
 
+.testimonials-section .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    background-color: var(--secondary-color);
+}
+
+.testimonials-section .swiper-slide-button{
+    color: var(--secondary-color);
+    transition: 0.3s ease;
+}
+
+.testimonials-section .swiper-slide-button:hover{
+    color: var(--primary-color)a;
+}
+
 @media screen and (max-width: 1024px){
 
     .menu-section .menu-list{
