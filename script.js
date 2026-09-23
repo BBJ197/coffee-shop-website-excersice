@@ -15,3 +15,17 @@ document.addEventListener("click", (event) => {
     menu.classList.remove("active");
   }
 });
+
+const swiper = new Swiper(".slider-container", {
+  loop: true,
+  spaceBetween: 25,
+
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
