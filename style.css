@@ -336,10 +336,22 @@ background-color: var(--light-pink-color);
         margin-right: 0;
     }
 
-    .hero-section .hero-details {
+    .hero-section .hero-details, .about-section .about-ditails {
         max-width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .about-section .section-content{
+        gap: 70px;
+        flex-direction: column-reverse;
+    }
+
+    .about-section .about-image-wrapper .about-image{
+        width: 100%;
+        height: 100%;
+        max-width: 250px;
+        aspect-ratio: 1;
     }
 } 
