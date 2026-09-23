@@ -22,6 +22,8 @@ const swiper = new Swiper(".slider-container", {
 
   pagination: {
     el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
   },
 
   navigation: {
