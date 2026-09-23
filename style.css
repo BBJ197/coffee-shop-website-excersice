@@ -512,7 +512,7 @@ background-color: var(--light-pink-color);
         margin-right: 0;
     }
 
-    .hero-section .hero-details, .about-section .about-ditails {
+    .hero-section .hero-details, .about-section .about-ditails{
         max-width: 100%;
         display: flex;
         flex-direction: column;
@@ -541,6 +541,19 @@ background-color: var(--light-pink-color);
 
     .menu-section .menu-list .menu-item .menu-image {
         max-width: 300px;
+    }
+
+    .contact-section .section-content {
+        align-items: center ;
+        flex-direction: column-reverse;
+    }
+
+    .contact-section .contact-form{
+        max-width: 100%;
+    }
+
+    .contact-section .contact-info-list{
+        max-width: 80%;
     }
 } 
 
