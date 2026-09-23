@@ -60,6 +60,12 @@ img {
     width: 100%;
 }
 
+.section-content{
+    max-width: var(--site-max-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 /* nav bar */
 
 header {
@@ -70,6 +76,7 @@ header .nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
 .nav-bar .nav-menu {
@@ -82,6 +89,8 @@ header .nav-bar {
     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: var(--font-size-x1);
+    font-weight: var(--font-weight-semibold);
 }
 
 .nav-bar .nav-menu .nav-link {
@@ -89,10 +98,12 @@ header .nav-bar {
     color: var(--white-color);
     border-radius: var(--border-radius-m);
     font-size: var(--font-size-m);
+    transition: 0.3s ease;
 }
 
 .nav-bar .nav-menu .nav-link:hover {
     background: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .nav-bar .nv-logo img {
