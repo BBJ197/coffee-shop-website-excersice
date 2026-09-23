@@ -261,6 +261,36 @@ background-color: var(--light-pink-color);
     color: var(--secondary-color);
 }
 
+/* menu section  */
+
+.menu-section {
+    color: var(--white-color);
+    background-color: var(--dark-color);
+}
+
+.menu-section .menu-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 110px;
+    justify-content: space-between;
+}
+
+.menu-section .menu-list .menu-item{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100%/3 - 110px);
+    justify-content: space-between;
+}
+
+.menu-section .menu-list .menu-item .menu-image{
+    max-width: 83%;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+
 @media screen and (max-width: 900px) {
 
     :root{
