@@ -1,3 +1,4 @@
+const navLinks = document.querySelectorAll(".nav-menu .nav-link");
 const menuOpen = document.getElementById("menu-open-button");
 const menuClose = document.getElementById("menu-close-button");
 const menu = document.querySelector(".nav-menu");
@@ -8,6 +9,10 @@ menuOpen.addEventListener("click", () => {
 
 menuClose.addEventListener("click", () => {
   menu.classList.remove("active");
+});
+
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => menu.classList.remove("active"));
 });
 
 document.addEventListener("click", (event) => {
