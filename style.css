@@ -70,6 +70,9 @@ img {
 
 header {
     background-color: var(--primary-color);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
 }
 
 header .nav-bar {
@@ -127,4 +130,23 @@ header .nav-bar {
     min-height: 100vh;
     color: var(--white-color);
     justify-content: space-between;
+}
+
+.hero-section .hero-details .title {
+    font-size: var(--font-size-xxl);
+    color: var(--secondary-color);
+    font-family: "Miniver", sans-serif;
+}
+
+.hero-section .hero-details .subtitle {
+    margin-top: 8px;
+    max-width: 70%;
+    font-size: var(--font-size-x1);
+    font-weight: var(--font-weight-semibold);
+} 
+
+.hero-section .hero-details .discription {
+    max-width: 70%;
+    margin: 24px 0 40px;  
+    font-size: var(--font-size-m);
 }
