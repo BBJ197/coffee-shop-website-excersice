@@ -115,3 +115,16 @@ header .nav-bar {
 .nav-bar .nv-logo {
     font-size: 25px;
 }
+
+.hero-section{
+    min-height: 100vh;
+    background-color: var(--primary-color);
+}
+
+.hero-section .section-content {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    color: var(--white-color);
+    justify-content: space-between;
+}
